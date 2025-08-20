@@ -58,4 +58,5 @@ if st.button('Get Steps'):
     st.header("Status of each subtask : \n")
 
     for agent in agent_subtask.keys():  # iterate through each agent and their assigned subtask 
+
         return_status(agent, agent_subtask[agent])
